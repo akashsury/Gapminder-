@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Gapminder Clone</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png"></a>      
+        </div>
+    </nav>
+    
+    <div>
+        <h1 align="center">Gapminder</h1>
+        <br>
+         <pre><font size="4">   
+            This visualization tool is about displaying relationship between Life expectancy and GDP Per Capita of the people 
+         in 4 continents which includes 200 countries and showing the transition of them for more than 200 years. The population
+         of the countries are displayed by using the areas of the circles in the graph. Using the color code of the circles in 
+         the graph, the continents which the countries belonged to can be identified. It will be difficult to plot the large number 
+         of datasets like this without the help of visualization tool. In this project, dataset is stored in json file. The main
+         idea of this relationship is clearly represented by visualization of how the countries(in this graph) moves from the state 
+         of unhealthy and poor to the state of rich and healthy over a period of time.
+              
+         </font></pre>   
+    </div>   
+
+    <!-- Bootstrap grid setup -->
+    <div class="container">
+        <div class="row">
+            <div id="chart-area"></div>  
+        </div>
+    </div>
+    
+
+<!-- External JS libraries -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/d3.min.js"></script>
+<!-- Custom JS -->
+<script src="main.js"></script>
+
+</body>
+</html>
